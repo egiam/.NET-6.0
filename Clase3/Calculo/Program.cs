@@ -1,4 +1,4 @@
-﻿
+﻿//Borra la pantalla:
 Console.Clear();
 
 Console.WriteLine("Este programa calcula la superficie de un rectangulo");
