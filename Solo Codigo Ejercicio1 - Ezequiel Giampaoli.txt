@@ -1,0 +1,26 @@
+int x;
+do
+{
+    Console.Clear();
+    Console.WriteLine("Escribi tu nombre: ");
+    string? nombre = Console.ReadLine();
+
+    Console.WriteLine("Hola " + nombre + "!");
+    Console.WriteLine("Deseas Continuar? [Y/N] ");
+    string? continuar = Console.ReadLine();
+
+    if (continuar.ToUpper() == "Y")
+    {
+        x = 1;
+    }
+    else if (continuar.ToUpper() == "N")
+    {
+        x = 0;
+    }
+    else
+    {
+        Console.WriteLine("Opcion no valida.");
+        x = 0;
+    }
+
+} while (x != 0);
