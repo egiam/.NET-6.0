@@ -1,0 +1,2 @@
+1) ¿Cuál es el primer elemento de una matriz 0 o 1? 
+2) ¿Cual es la diferencia entre un acumulador y un contador?
