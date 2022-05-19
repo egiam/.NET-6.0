@@ -19,6 +19,7 @@ for (int i = 0; i < 10; i++)
     if (i == 1)
     {
         menor = numero[i];
+        mayor = numero[i];
     }
 
     if (numero[i] > mayor)
