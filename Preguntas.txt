@@ -12,7 +12,6 @@ Clase 9
 2. donde se coloca el tipo de dato para las listas
 
 
-
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
 Sus atributos son titulo, numero de temporadas, entregado, genero y creador.
