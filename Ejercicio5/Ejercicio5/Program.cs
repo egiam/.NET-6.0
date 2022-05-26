@@ -32,7 +32,11 @@ Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine("Array Invertido: ");
 Console.WriteLine();
-    for (int i = numeros.Length - 1; i >= 0; i--)
+
+//Primer Forma
+Console.WriteLine("Primer Forma");
+Console.WriteLine();
+for (int i = numeros.Length - 1; i >= 0; i--)
 {
     numerosInverso[x] = numeros[i];
     x++;
@@ -42,3 +46,27 @@ for (int i = 0; i < n; i++)
 {
     Console.Write($" - {numerosInverso[i]}");
 }
+
+Console.WriteLine();
+Console.WriteLine();
+
+//Segunda Forma
+Console.WriteLine("Segunda Forma: ");
+Console.WriteLine();
+
+
+int aux;
+for (int i = 0; i < numeros.Length / 2; i++)
+{
+    aux = numeros[numeros.Length - 1 - i];
+    numeros[numeros.Length - 1 - i] = numeros[i];
+    numeros[i] = aux;
+}
+
+for (int i = 0; i < n; i++)
+{
+    Console.Write($" - {numeros[i]}");
+}
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
