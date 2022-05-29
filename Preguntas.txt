@@ -11,6 +11,13 @@ Clase 9
 1. Nombre de la clase para obtener datos aleatorios
 2. donde se coloca el tipo de dato para las listas
 
+Clase 10
+1. Que Significan el Count y la Capacity en una lista?
+2. Que son las estructuras de dato LIFO y FIFO, y dar un ejemplo de cada una.
+
+Pilas: Estructura donde el ultimo en entrar es el primero en salir. new Stack<int>();
+Colas: Similar a pila, pero el primero en entrar es el primero en salir. new Queue<int>();
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
