@@ -215,3 +215,5 @@ do
         PromedioCol();
     }
 } while (cantidad != 0);
+
+Console.ReadKey();
