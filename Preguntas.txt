@@ -1,4 +1,4 @@
-
+ 
 Clase 7
 1) ¿Cuál es el primer elemento de una matriz 0 o 1? 
 2) ¿Cual es la diferencia entre un acumulador y un contador?
@@ -17,6 +17,21 @@ Clase 10
 
 Pilas: Estructura donde el ultimo en entrar es el primero en salir. new Stack<int>();
 Colas: Similar a pila, pero el primero en entrar es el primero en salir. new Queue<int>();
+
+Clase 11
+1. Cuales son las tres estrucuras logicas que plantea el teorema de la programacion estructurada? --> De Secuencia, Seccion e Iteracion
+2. Cual es la diferencia entre instancia y clase.
+	Diferencia entre instancia y clase:
+	La clase es el molde del objeto que quiero crear. 
+	La instancia es el objeto creado a partir de una clase.
+
+Paradigma: Forma de encarar un tema.
+Objeto, Modelo (UML => Modelo grafico para representar objetos)
+POO: reutiliacion de codigo.
+
+Clase 12:
+1. 
+2. 
 
 
 Extra:
