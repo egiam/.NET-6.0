@@ -30,8 +30,14 @@ Objeto, Modelo (UML => Modelo grafico para representar objetos)
 POO: reutiliacion de codigo.
 
 Clase 12:
-1. 
-2. 
+1. Como invocamos o llamamos a una funcion o metodo?
+	GetInfo es un metodo o una funcion y lo otro son propiedades, para poder llamar un metodo o funcion si o si necesito usar parentesis.
+2. Es posible tener dos funciones con el mismo nombre? Justifique.
+
+DateTime:
+	fecha = new DateTime(1986, 11, 4) //Anio, Mes, Dia
+	fecha.ToString("yyyy MM dd ddd")
+	fecha.ToString("dddd dd-MMM-yy HH:mm")
 
 
 Extra:
