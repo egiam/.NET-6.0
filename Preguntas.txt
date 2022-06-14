@@ -39,6 +39,16 @@ DateTime:
 	fecha.ToString("yyyy MM dd ddd")
 	fecha.ToString("dddd dd-MMM-yy HH:mm")
 
+Clase 13:
+1. Es necesario inicializar todos los atributos de la clase, en el metodo constructor?
+	RTA: Solo aquellos a los que realmente quiero/voy a inicializar.
+2. Que sucede si no defino un cuerpo para los metodos get y set para una propiedad?
+
+Sobrecarga de metodos --> Definir un metodo con el mismo nombre, pero que esa funcion tenga un procesamiento distinto basado en sus parametros.
+
+Un objeto se puede comportar de distintas maneras cuando tiene q realizar una funcion.
+Constructor: Funcion que se ejecuta al momento de instanciarse la clase. Se llama exctamente igual que la clase.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
