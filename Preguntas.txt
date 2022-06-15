@@ -44,6 +44,15 @@ Clase 13:
 	RTA: Solo aquellos a los que realmente quiero/voy a inicializar.
 2. Que sucede si no defino un cuerpo para los metodos get y set para una propiedad?
 
+Clase 14:
+1. Que es el recolector de basura? Garbage collector
+	Se da cuenta que hay muchos objetos que quedaron sin usar, los destruye, llama al destructor de ese objeto y libera memoria. Funciona automaticamente y detecta cuando hay mucha necesidad de memoria, lo va destruyendo.
+2. Que es la herencia?
+	La herencia es un mecanismo de la POO, por el cual las clases se pueden derivar entre si, una clase hija se deriva de otra clase padre, o clase abuelo.
+
+Protected --> Solo los que son parte de la herencia pueden ver/usar ese metodo / funcion.
+Static --> Te permite usar un metodo de una clase sin necesidad de instanciarlo. (Si se puede, se define como static)
+
 Sobrecarga de metodos --> Definir un metodo con el mismo nombre, pero que esa funcion tenga un procesamiento distinto basado en sus parametros.
 
 Un objeto se puede comportar de distintas maneras cuando tiene q realizar una funcion.
