@@ -58,6 +58,14 @@ Sobrecarga de metodos --> Definir un metodo con el mismo nombre, pero que esa fu
 Un objeto se puede comportar de distintas maneras cuando tiene q realizar una funcion.
 Constructor: Funcion que se ejecuta al momento de instanciarse la clase. Se llama exctamente igual que la clase.
 
+Clase 15:
+1. Si yo creo una referencia de una instancia de una clase y modifico el valor de un atributo de dicha referencia, que sucede con el valor del atributo de la instancia original?
+	Al modificar el valor de un atributo a traves de una referencia, el valor del mismo atributo va a ser modificado acordando con el valor modificado de la misma referencia. Minuto 46
+2. Que sucede si intentamos castear una instancia de un objeto en una clase a la cual no pertenece o no hereda?
+	Al castear una instancia en una clase a la cual no pertenece, se realizara un error.
+
+Las instancias de las clases son de tipo referencia. Minuto 30.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
