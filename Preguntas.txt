@@ -66,6 +66,23 @@ Clase 15:
 
 Las instancias de las clases son de tipo referencia. Minuto 30.
 
+Clase 16:
+1. Para que usamos el modificador de acceso private?
+2. Para que sirven los modificadores de clase abstract y sealed?
+
+El Set se ejecuta cuando se asigna un valor a la propiedad.
+El Get cuando se lee la propiedad.
+
+int.TryParse(value, out nombreVariable); //Intenta la conversion, si se puede, el metodo devuelve el resultado de la conversion, y tambien, a traves del out, avisa que el metodo va a emitir una salida. 
+
+TimeSpan: Desde el inicio hasta ahora, es la fecha actual, desde el inicio hasta cierta fecha, es la fecha de nacimiento. Si yo resto la fecha actual y la de nacimiento, queda el espacio de tiempo entre esas dos variables. 
+
+Casting: (int) atrapar un determinado dato como si fuera otro.
+
+Abstract: Le da la caracteristica a una clase de que no puede ser instanciada. Es decir, llamada.
+
+Sealed: Sellada, esta clase no va a poder ser heredada mas.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
