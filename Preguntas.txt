@@ -83,6 +83,24 @@ Abstract: Le da la caracteristica a una clase de que no puede ser instanciada. E
 
 Sealed: Sellada, esta clase no va a poder ser heredada mas.
 
+Clase 17:
+1. Cuantas interfaces puede implementar una clase?
+2. Puedo declarar una variable como una interfaz? Si, si se puede declarar una variable como una interfaz.
+
+Se puede decir que una interfas es como una clase abstracta.
+
+C# no soporta herencia multiple, pero si podes implementar multiples interfaces.
+
+Siempre es mejor trabajar con interfaces y no clases.
+
+Clase 18:
+1. Las interfaces tienen la capacidad de tener herencia multiple, o no?
+	Las interfaces pueden heredad de multiples interfaces, es capaz de herencia multiple.
+2. La herencia, sirve para reutilizar codigo?
+
+Los metodos que tienen que implementarse x las interfaces, tienen que ser publicos.
+Las interfaces si puede tener herencia multiple.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
