@@ -104,7 +104,7 @@ Las interfaces si puede tener herencia multiple.
 Clase 19:
 1. En los diccionarios, se puede utilizar cualquier tipo de dato como clave?
 	Si, en los diccionarios se pueden utilizar todos los tipos de datos. Pero no te conviene utilizar ciertos tipos de datos como Objetos, Listas, etc.
-2. 
+2. El repositorio de persona, puede guardar datos de cualquier persona, sea de la clase que sea, siempre y cuando herede de la clase persona? Justificar.
 
 LinQ --> trabajar con conjuntos de datos.
 

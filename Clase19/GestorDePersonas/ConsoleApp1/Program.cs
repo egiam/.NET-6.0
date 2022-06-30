@@ -10,6 +10,9 @@ var menuAplicacion = new MenuAplicacion();
 menuAplicacion.Iniciar();
 
 //var repositorio = new RepositorioDePersonas();
+//repositorio.Existe();
+
+//var repositorio = new RepositorioDePersonas();
 
 ////Le pido al usuario los datos de una persona para agregar
 ////El usuario debería elegir el tipo de persona a agregar
