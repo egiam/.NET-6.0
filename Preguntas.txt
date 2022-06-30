@@ -101,6 +101,13 @@ Clase 18:
 Los metodos que tienen que implementarse x las interfaces, tienen que ser publicos.
 Las interfaces si puede tener herencia multiple.
 
+Clase 19:
+1. En los diccionarios, se puede utilizar cualquier tipo de dato como clave?
+	Si, en los diccionarios se pueden utilizar todos los tipos de datos. Pero no te conviene utilizar ciertos tipos de datos como Objetos, Listas, etc.
+2. 
+
+LinQ --> trabajar con conjuntos de datos.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
