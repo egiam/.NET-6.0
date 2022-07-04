@@ -1,0 +1,43 @@
+while (true) {    
+    Console.Clear();
+
+    // Header del programa
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.WriteLine("*************************************");
+    Console.WriteLine("*       Bienvenido al sistema       *");
+    Console.WriteLine("*               E-SKYNET            *");  
+    Console.WriteLine("*************************************\n");
+    
+    Console.Beep(700, 100);
+    Console.Beep(700, 100);
+
+    // Obtencion del nombre y saludo al usuario
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    Console.Write("☻>E-Skynet> Cual es su Nombre estimado Humano?\n☻>E-Skynet> ");
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"\n☻>: ¡Hola {Console.ReadLine()}!\n"); 
+
+    Console.Beep(700, 100);
+
+    // Zona para repetir el programa o finalizarlo por medio de una opcion o por opcion invalida
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    Console.Write("☻>E-Skynet> Continuamos crack? (S/N)\n☻>E-Skynet> ");
+    Console.ForegroundColor = ConsoleColor.Green;
+    string ultraMegaAnswer = Console.ReadLine().ToUpper();
+
+    // Si la respuesta es N o Incorrecta se envia un mensaje y finaliza el programa (6 y 7)
+    if (ultraMegaAnswer != "S") {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(
+            ultraMegaAnswer == "N" ?
+            "\nPrograma finalizado correctamente\n\n" :
+            "\nOpcion no valida\n\n" 
+        ); 
+
+        Console.Beep(600, 100);
+        Console.Beep(500, 200);
+        Console.ResetColor();
+        
+        break;
+    }
+}

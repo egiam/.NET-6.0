@@ -108,6 +108,12 @@ Clase 19:
 
 LinQ --> trabajar con conjuntos de datos.
 
+Clase 20:
+1. 
+2. 
+
+
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:

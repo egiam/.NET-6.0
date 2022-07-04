@@ -1,0 +1,15 @@
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\bin\Debug\net6.0\CrearTarjetasBingo.exe
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\bin\Debug\net6.0\CrearTarjetasBingo.deps.json
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\bin\Debug\net6.0\CrearTarjetasBingo.runtimeconfig.json
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\bin\Debug\net6.0\CrearTarjetasBingo.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\bin\Debug\net6.0\CrearTarjetasBingo.pdb
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.csproj.AssemblyReference.cache
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.AssemblyInfoInputs.cache
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.AssemblyInfo.cs
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.csproj.CoreCompileInputs.cache
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\refint\CrearTarjetasBingo.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.pdb
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\CrearTarjetasBingo.genruntimeconfig.cache
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\CrearTarjetasBingo\CrearTarjetasBingo\obj\Debug\net6.0\ref\CrearTarjetasBingo.dll
