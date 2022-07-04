@@ -109,10 +109,10 @@ Clase 19:
 LinQ --> trabajar con conjuntos de datos.
 
 Clase 20:
-1. 
-2. 
+1. Que es una clase parcial?
+2. Que es un tipo anonimo?
 
-
+Partial.
 
 
 Extra:

@@ -26,7 +26,7 @@ var auto1 = new
     Marca = "Ford",
     Modelo = "Mustang",
     Anio = "1969"
-};
+}; //Crea internamente una clase, lo usa como si fuera una clase mas
 
 //Console.WriteLine(auto1.Marca);
 //Console.WriteLine(auto1.Modelo);
@@ -50,7 +50,7 @@ var pr2 = new
 // Expresiones lambda
 // Ejemplo 1
 int[] numeros = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-int numerosImpares = numeros.Count(numero => numero % 2 == 1);
+int numerosImpares = numeros.Count(numero => numero % 2 == 1); //Te muestra solo los imapres
 
 Console.WriteLine(numerosImpares);
 
@@ -63,7 +63,7 @@ misClientes.Add(new Persona { Apellido = "De Tal", Nombre = "Fulano" });
 //    cadaCliente => cadaCliente.Nombre == "Juan");
 
 var juanes = misClientes.Where(
-    cadaCliente => cadaCliente.Nombre == "Juan");
+    cadaCliente => cadaCliente.Nombre == "Juan"); //Cuando el nombre sea 'juan' incluirlo.
 
 foreach (var item in juanes)
 {
