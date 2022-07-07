@@ -118,7 +118,7 @@ Clase 21:
 1. Cual es la interfaz mas comun que devuelven los metodos LinQ cuando devuelven un resultado?
 	IEnumerable
 2. Si utilizamos interfaces, es necesario que conozca como esta implementada una interfaz por dentro?
-	No, no es necesario que conozca como esta implementada una interfaz por dentro.
+	No, no es necesario que la clase conozca como esta implementada una interfaz por dentro.
 
 IEnumerable = Se va a poder enumerar. Tiene los metodos necesarios para poder ir yo integrando desde principio a fin.
 
