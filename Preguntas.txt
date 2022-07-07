@@ -114,6 +114,12 @@ Clase 20:
 
 Partial.
 
+Clase 21:
+1. 
+2. 
+
+
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
