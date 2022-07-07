@@ -115,10 +115,19 @@ Clase 20:
 Partial.
 
 Clase 21:
-1. 
-2. 
+1. Cual es la interfaz mas comun que devuelven los metodos LinQ cuando devuelven un resultado?
+	IEnumerable
+2. Si utilizamos interfaces, es necesario que conozca como esta implementada una interfaz por dentro?
+	No, no es necesario que conozca como esta implementada una interfaz por dentro.
 
+IEnumerable = Se va a poder enumerar. Tiene los metodos necesarios para poder ir yo integrando desde principio a fin.
 
+Con las clases definimos comportamientos. Habilidad / capacidad de comportarse de cierta forma.
+
+LinQ = Language Integrated Query = Consultas integradas al lenguaje.
+	Es un conjunto de metodos de extencion. Parte de los ORM.
+
+Principios solidos (?
 
 
 Extra:

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5T43ajioLk+mOCUR/vGgWVU2IQLMK+4L984LsIl6DA8zuvkSRGtmJoNUTY4jbL4kKpWNCaMj4MHC78gSs7dgxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Clases\\Clase21Eze\\GestorDePersonas\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezegi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

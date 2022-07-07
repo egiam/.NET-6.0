@@ -10,7 +10,7 @@ namespace ConsoleApp1.Repositorio
 {
     public class RepositorioPersonaEnArchivos : IRepositorioPersona
     {
-        private string _pathArchivo = "c:\\persona.txt";
+        private string _pathArchivo = "c:\\persona.txt"; //Ruta o path del archivo
 
         public void Actualizar(Persona persona)
         {
