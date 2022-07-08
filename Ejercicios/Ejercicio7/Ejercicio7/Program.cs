@@ -34,7 +34,10 @@
 //6 - Mostrar baraja
 //7 - Salir
 
+using Ejercicio7;
+
 int numero = 1;
+var baraja = new Baraja();
 
 do
 {
@@ -57,31 +60,43 @@ do
         case 1:
             {
                 Console.WriteLine("Barajando...");
+                baraja.Barajar();
                 break;
             }
         case 2:
             {
                 Console.WriteLine("Mostrando siguiente carta...");
+                var carta = baraja.SiguienteCarta();
+                if (carta != null)
+                    Console.WriteLine(carta.ToString());
+                else
+                    Console.WriteLine("No hay cartas");
                 break;
             }
         case 3:
             {
                 Console.WriteLine("Mostrando cartas disponibles...");
+                Console.WriteLine(baraja.CartasDisponible());
                 break;
             }
         case 4:
             {
                 Console.WriteLine("Dar cartas...");
+                Console.WriteLine("Cuantas cartas quiere dar?");
+                var cantidad = int.Parse(Console.ReadLine());
+                baraja.DarCartas(cantidad);
                 break;
             }
         case 5:
             {
                 Console.WriteLine("Mostrando cartas del monton...");
+                baraja.CartasMonton();
                 break;
             }
         case 6:
             {
                 Console.WriteLine("Mostrando baraja...");
+                baraja.MostrarBaraja();
                 break;
             }
         case 7:
