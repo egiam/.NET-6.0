@@ -129,6 +129,12 @@ LinQ = Language Integrated Query = Consultas integradas al lenguaje.
 
 Principios solidos (?
 
+Clase 22:
+1. 
+2. 
+
+
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
