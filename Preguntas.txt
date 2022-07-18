@@ -131,9 +131,9 @@ Principios solidos (?
 
 Clase 22:
 1. Es obligatorio usar restricciones? min: 56:25
-2. 
-
-
+	No es obligatorio usar restricciones.
+2. Es posible invocar a un metodo de una instancia recien creada y que esa instancia no sea guardada en una variable? 1:29:10
+	Si
 
 
 Extra:
