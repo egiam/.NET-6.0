@@ -130,7 +130,7 @@ LinQ = Language Integrated Query = Consultas integradas al lenguaje.
 Principios solidos (?
 
 Clase 22:
-1. 
+1. Es obligatorio usar restricciones? min: 56:25
 2. 
 
 
