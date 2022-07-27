@@ -8,6 +8,13 @@ namespace ConsoleApp1.Modelo
 {
     public abstract class Persona
     {
+        public Persona(string nombre, string apellido, string fechaNacimiento)
+        {
+            Nombre = nombre;
+            Apellido = apellido;
+            FechaNacimiento = fechaNacimiento;
+        }
+
         private DateTime _fechaNacimiento;
         private int _numeroDeDocumento;
 

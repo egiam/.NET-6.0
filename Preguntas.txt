@@ -135,6 +135,10 @@ Clase 22:
 2. Es posible invocar a un metodo de una instancia recien creada y que esa instancia no sea guardada en una variable? 1:29:10
 	Si
 
+Clase 23:
+1. Una biblioteca, podria considerarse una base de datos? porque?
+2. Si mi estructura de datos, no es uniforme, y puede estar consituida de cualquier forma, que me conviene utilizar, NoSQL o SQL?
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:

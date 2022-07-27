@@ -96,7 +96,7 @@ namespace ConsoleApp1.Frontend
 
                 case 2:
                     //Desempleado
-                    var desempleado = new Desemplado
+                    var desempleado = new Desempleado
                     {
                         Nombre = nombre,
                         Apellido = apellido,
