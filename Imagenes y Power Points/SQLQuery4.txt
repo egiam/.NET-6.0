@@ -1,0 +1,59 @@
+--Comandos de definicion (utilizados para modelar una base de datos)
+
+--Comando para crear una base de datos nueva
+CREATE DATABASE Agenda
+--Comando para seleccionar base donde operar
+USE Agenda
+
+USE master
+
+--Comando para eliminar base de datos
+DROP DATABASE Agenda
+
+--Comando para crear una tabla
+CREATE TABLE Personas(
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	Nombre VARCHAR(50) NOT NULL,
+	Apellido VARCHAR(50) NOT NULL
+	);
+
+--Comando para modificar una tabla (agregar nuevo campo)
+ALTER TABLE Personas
+ADD Edad INT NOT NULL
+
+--Comando para modificar una tabla (eliminar una columna)
+ALTER TABLE Personas
+DROP COLUMN Edad
+
+--Comandos de manipulacion de datos
+
+--Comando para insertar un registro en una tabla
+INSERT INTO Personas (Nombre, Apellido, Edad)
+VALUES ('Ruben', 'Benegas', 19)
+
+--Comando para modificar un registro de la tabla
+UPDATE Personas 
+SET Nombre = 'JuanEditado'
+WHERE Id = 1
+
+--Comando para eliminar (No reinicia el contador de Ids
+DELETE FROM Personas 
+WHERE Id = 1
+
+--Comando para vaciar una tabla (Reinicia el contador de Ids)
+TRUNCATE TABLE Personas
+
+--Comando de consulta
+SELECT Id, Nombre + ' ' + Apellido AS Descripcion FROM Personas
+WHERE Nombre = 'Ruben'
+
+
+
+
+
+
+
+
+
+
+

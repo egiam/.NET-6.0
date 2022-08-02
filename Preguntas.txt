@@ -139,6 +139,10 @@ Clase 23:
 1. Una biblioteca, podria considerarse una base de datos? porque?
 2. Si mi estructura de datos, no es uniforme, y puede estar consituida de cualquier forma, que me conviene utilizar, NoSQL o SQL?
 
+Clase 24:
+1. Cuales son los comandos de definicion mas comunes para microsoft SQL Server?
+2. Cuales son los comandos mas comunes de manipulacion de datos en SQL Server?
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
