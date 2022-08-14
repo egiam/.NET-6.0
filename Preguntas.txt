@@ -143,6 +143,20 @@ Clase 24:
 1. Cuales son los comandos de definicion mas comunes para microsoft SQL Server?
 2. Cuales son los comandos mas comunes de manipulacion de datos en SQL Server?
 
+Clase 25:
+1. Cuando tengo multiples PK, la combinacion de esta, se puede repetir?
+2. Mediante la utilizacion del Join, tengo una limitacion a la cantidad de tablas a relacionar?
+
+Clase 26:
+1. Se puede combinar mas de un operador en la misma consulta para filtrar resultados con where?
+2. Para ejecutar una consulta con order by, es necesario que las columnas involucradas cuenten con indices creados?
+
+Clase 27:
+1. 
+2. 
+
+
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
