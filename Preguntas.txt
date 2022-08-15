@@ -152,10 +152,13 @@ Clase 26:
 2. Para ejecutar una consulta con order by, es necesario que las columnas involucradas cuenten con indices creados?
 
 Clase 27:
+1. Para que sirve using en C#?
+2. Cuales son las dos distintas formas que tiene entity framework de encarar el problema?
+	Code First y Database First
+
+Clase 28:
 1. 
 2. 
-
-
 
 
 Extra:
