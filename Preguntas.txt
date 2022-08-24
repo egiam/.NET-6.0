@@ -157,8 +157,13 @@ Clase 27:
 	Code First y Database First
 
 Clase 28:
-1. 
-2. 
+1. Que es LinQ y que facilidades nos proporciona.
+	LINQ es un componente de .NET Framework que proporciona capacidad de consulta en 		colecciones en C# o VB.
+2. Cual es la interface que implementa DBset para realizar consultas con LinQ
+
+Any() //Cualquiera que cumpla con la condicion
+Select() //Selecciona partes definidas. Como un select comun
+FirstOrDefault() //Selecciona el primero o unico de los registros que aparecen
 
 
 Extra:
