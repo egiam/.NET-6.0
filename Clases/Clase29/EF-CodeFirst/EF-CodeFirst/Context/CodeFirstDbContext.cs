@@ -14,7 +14,7 @@ namespace EF_CodeFirst.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Conectamos con nuestra base SQL Server usando un string de conexión
-            optionsBuilder.UseSqlServer("Server=EZE-INCLUIT\\SQLEXPRESS2012;Initial Catalog=EFCodeFirst;Integrated Security=true;");
+            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Initial Catalog=EFCodeFirst;Integrated Security=true;");
             
             base.OnConfiguring(optionsBuilder);
         }

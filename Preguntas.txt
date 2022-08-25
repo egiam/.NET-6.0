@@ -165,6 +165,21 @@ Any() //Cualquiera que cumpla con la condicion
 Select() //Selecciona partes definidas. Como un select comun
 FirstOrDefault() //Selecciona el primero o unico de los registros que aparecen
 
+Clase 29:
+1. En el aproach code first de EF, debo tener una BD creada para poder comenzar a desarrollar mi app?
+	No. Podes usar Migration.
+2. Que paquetes NuGet debo instalar para poder trabajar con EF utilizando Aproach code first, SQL, y Migrations.
+
+Migraciones: Forma de hacer que el modelo de datos se genere o construya dentro de la BD.
+Como?
+1 - NuGet package manager console
+2 - add migration FirstMigration
+3 - Genera automaticamente la Migracion
+
+Clase 30:
+1. 
+2. 
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
