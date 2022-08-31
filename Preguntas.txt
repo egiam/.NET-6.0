@@ -177,10 +177,20 @@ Como?
 3 - Genera automaticamente la Migracion
 
 Clase 30:
-1. 
-2. 
+1. Cuales son las dos dependencias q tenemos q instalar para utilizar dapper con sqlserver?
+	System.Data.SqlClient
+	Dapper
+2. Cual es el nombre del metodo que utiliza dapper para obtener el primer registro de una consulta o en su defecto un nulleable?
 
 Dapper: ORM - Escribis la consulta.
+
+Clase 31:
+1. Que devuelve el metodo excecute de dapper?
+	Devuelven un numero: La cantidad de consultas que fueron afectadas.
+
+Clase 32:
+1. 
+2. 
 
 
 Extra:
