@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AtefKwvB9hcyeUiniaUGUXdBT19l8kZH4kCwE463tAqEBMFARNBMKD8TyrkDpD2H1Y4r9B3Ka31SrPZq1S7WYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Clases\\Clase30\\ApiDupper\\ApiDupper\\ApiDupper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezegi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ezegi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ezegi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ezegi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ezegi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ezegi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

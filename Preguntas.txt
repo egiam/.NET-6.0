@@ -180,6 +180,8 @@ Clase 30:
 1. 
 2. 
 
+Dapper: ORM - Escribis la consulta.
+
 
 Extra:
 Crearemos una clase llamada Serie con las siguientes características:
