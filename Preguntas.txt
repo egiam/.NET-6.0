@@ -188,9 +188,19 @@ Clase 31:
 1. Que devuelve el metodo excecute de dapper?
 	Devuelven un numero: La cantidad de consultas que fueron afectadas.
 
-Clase 32:
-1. 
-2. 
+Clase 32: 	A partir de ahora Todo Web
+1. Que significa CSHTML?
+	​Que dentro de c-sharp esta envevido html.
+	Razor: Motor de procesamiento de texto.
+2. Que significa MVC?
+	Model View Controler 
+
+	[dotnet new mvc] en consola --> Proyecto web medio hecho
+ASP.NET -> Model View Controler (MVC) --> 
+App Web con servidor y cliente: Angular o React aparte de C# solamente. Frameworks Web de JS
+Empezamos con el mas simple: ASP.NET Core Web App
+
+En el layout defino todo el esqueleto de la app, si pongo algo ahi, el mismo se aplica en todas las paginas.
 
 
 Extra:
