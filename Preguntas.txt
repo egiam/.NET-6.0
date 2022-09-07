@@ -203,8 +203,12 @@ Empezamos con el mas simple: ASP.NET Core Web App
 En el layout defino todo el esqueleto de la app, si pongo algo ahi, el mismo se aplica en todas las paginas.
 
 Clase 33:
-1. 
-2. 
+1. Cuales son los componentes principales del patron MVC?
+	Modelo - Vista - Controladores
+2. Cual es la responsabilidad del componente controler?
+	Encargado de gestionar toda la informacion y logica. Devolver el modelo si fuese necesario. Elegir que vista mostrar. 
+
+
 
 
 Extra:
