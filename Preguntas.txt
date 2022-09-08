@@ -208,7 +208,8 @@ Clase 33:
 2. Cual es la responsabilidad del componente controler?
 	Encargado de gestionar toda la informacion y logica. Devolver el modelo si fuese necesario. Elegir que vista mostrar. 
 
-
+Clase 34:
+1. 
 
 
 Extra:
