@@ -209,7 +209,17 @@ Clase 33:
 	Encargado de gestionar toda la informacion y logica. Devolver el modelo si fuese necesario. Elegir que vista mostrar. 
 
 Clase 34:
-1. 
+1. Para que me sirve el archivo viewstart y todo lo que se defina dentro de el?
+	El archivo viewstart sirve para comenzar / hacer init a la vista / layout. Asi el mismo puede inicializarce facilmente sin necesidad de colocar cierto codigo en cada archivo cshtml.
+
+Layout: Todo dentro de eso, va aser reutilizado / repetido x todas las paginas. Ej: Header / Footer. Sin necesidad de escribir y repetir el mismo codigo todo el tiempo.
+Con Razor, el layout es procesado x el servidor para hacer esta utilidad.
+
+El @ sirve para empezar a escribir codigo C# dentro de html o css, etc
+Dentro de viewstart y viewimport se encuentra el init del layout para todas las paginas.
+ViewData[""] en el index o en cualquier pagina cshtml es lo que indica que se lea el init del view general con su layout predeterminado.
+
+Cada vista puede tener un solo modelo. @model ... crea una variable Model, que se puede usar x ejemplo como Model.Vehiculos
 
 
 Extra:

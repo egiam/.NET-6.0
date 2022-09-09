@@ -12,6 +12,7 @@ namespace IntroduccionMVC.Controllers
         
         public VehicleController(ApplicationDbContext dbContext)
         {
+            //Apenas se instancia esta clase, se va a activar y pasar el dbContext
             _dbContext = dbContext;
         }
         
