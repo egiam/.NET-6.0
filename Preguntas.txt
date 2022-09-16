@@ -1,4 +1,6 @@
- 
+Nombre de servidor
+[DESKTOP-44MC03F]
+
 Clase 7
 1) ¿Cuál es el primer elemento de una matriz 0 o 1? 
 2) ¿Cual es la diferencia entre un acumulador y un contador?
@@ -220,6 +222,15 @@ Dentro de viewstart y viewimport se encuentra el init del layout para todas las 
 ViewData[""] en el index o en cualquier pagina cshtml es lo que indica que se lea el init del view general con su layout predeterminado.
 
 Cada vista puede tener un solo modelo. @model ... crea una variable Model, que se puede usar x ejemplo como Model.Vehiculos
+
+Clase 35:
+1. 
+2. 
+
+Cambiar coneccion: 	AppSettings - source = [DESKTOP-44MC03F]
+			Data/Applicationdvcontext
+Herramientas -> Admin de paquetes NuGet -> Consola -> [update-database]
+
 
 
 Extra:
