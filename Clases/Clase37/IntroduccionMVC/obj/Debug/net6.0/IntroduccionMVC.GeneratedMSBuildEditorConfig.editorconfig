@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IntroduccionMVC
+build_property.RootNamespace = IntroduccionMVC
+build_property.ProjectDir = C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\Clases\Clase37\IntroduccionMVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\Clases\Clase37\IntroduccionMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/User/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/User/Ejemplo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFamVtcGxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxSZW1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Vehicle/_formFields.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxfZm9ybUZpZWxkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ezegi/OneDrive/Documentos/Educacion/.NET-6.0/Clases/Clase37/IntroduccionMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-902nf5p8jb
