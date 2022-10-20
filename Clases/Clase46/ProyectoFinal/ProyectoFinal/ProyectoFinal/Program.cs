@@ -5,7 +5,7 @@ builder.Services.AddControllersWithViews();
 
 string dev = string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ASPNETCORE_USER")) ? "Eugenio"  : Environment.GetEnvironmentVariable("ASPNETCORE_USER");
 
-builder.Configuration.AddJsonFile($"appsettings.{dev}.json");
+builder.Configuration.AddJsonFile($"appsettings.{dev}.json"); // Utiliza el archivo appsettings.Eugenio.json o uno distinto, dependiendo de el string dev
 
 var app = builder.Build();
 
