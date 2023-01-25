@@ -1,4 +1,4 @@
-﻿namespace Bingo_Final.Controllers
+﻿namespace Bingo_Final
 {
     public class BingoController
     {
@@ -75,8 +75,9 @@
 
         public void BorrarNumero()
         {
-            int borrados = 0;
-            while (borrados < 12){
+            var borrados = 0;
+            while (borrados < 12)
+            {
                 var filaABorrar = random.Next(0, 3);
                 var columnaABorrar = random.Next(0, 9);
 
@@ -84,11 +85,59 @@
                 {
                     continue;
                 }
-                else
+
+                var cerosEnFila = 0;
+                for (int c = 0; c < 9; c++)
                 {
-                    carton[filaABorrar, columnaABorrar] = 0;
-                    borrados++;
+                    if (carton[filaABorrar, c] == 0)
+                    {
+                        cerosEnFila++;
+                    }
                 }
+
+                var cerosEnColumna = 0;
+                for (int f = 0; f < 3; f++)
+                {
+                    if (carton[f, columnaABorrar] == 0)
+                    {
+                        cerosEnColumna++;
+                    }
+                }
+
+                var itemsPorColumna = new int[9];
+                for (int c = 0; c < 9; c++)
+                {
+                    for (int f = 0; f < 3; f++)
+                    {
+                        if (carton[f, c] != 0)
+                        {
+                            itemsPorColumna[c]++;
+                        }
+                    }
+                }
+
+                var columnasConUnSoloNumero = 0;
+                for (int c = 0; c < 9; c++)
+                {
+                    if (itemsPorColumna[c] == 1)
+                    {
+                        columnasConUnSoloNumero++;
+                    }
+                }
+
+                if (cerosEnFila == 4 || cerosEnColumna == 2)
+                {
+                    continue;
+                }
+
+                if (columnasConUnSoloNumero == 3 && itemsPorColumna[columnaABorrar] != 1)
+                {
+                    continue;
+                }
+
+                carton[filaABorrar, columnaABorrar] = 0;
+                borrados++;
+
             }
         }
     }
