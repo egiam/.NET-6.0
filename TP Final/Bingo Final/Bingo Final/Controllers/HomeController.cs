@@ -15,7 +15,9 @@ namespace Bingo_Final.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var rule = new BingoRule();
+            var carton = rule.GetCuatroCartonesRandom();
+            return View(carton);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
