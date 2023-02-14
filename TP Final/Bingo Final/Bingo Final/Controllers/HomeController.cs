@@ -1,4 +1,5 @@
 ﻿using Bingo_Final.Models;
+using Bingo_Final.Rules;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -16,8 +17,8 @@ namespace Bingo_Final.Controllers
         public IActionResult Index()
         {
             var rule = new BingoRule();
-            var carton = rule.GetCuatroCartonesRandom();
-            return View(carton);
+            var cartones = rule.GetCuatroCartonesRandom();
+            return View(cartones);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
