@@ -16,3 +16,51 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+tbody.cuerpo-carton tr td {
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+.1, .3, .5, .7, .9, .11, .13, .15, .17, .19, .21, .23, .25, .27, .29 {
+    background-color: lightblue;
+}
+
+.2, .4, .6, .8, .10, .12, .14, .16, .18, .20, .22, .24, .26, .28, .30 {
+    background-color: white;
+}
+
+div.4cartones {
+    display: flex;
+}
+
+div.filaCarton {
+    display: flex;
+    flex-direction: row;
+}
+
+div.carton {
+    margin: 0 25px 0 25px; 
+    flex-direction: column;
+}
+
+/*Para celulares*/
+
+@media (max-width: 767px) {
+    div.4cartones {
+        display: flex;
+    }
+
+    div.filaCarton {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.carton {
+        flex-direction: row;
+    }
+}
+
