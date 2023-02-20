@@ -1,0 +1,6 @@
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\bin\Debug\Bingo Final DB.dacpac
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\bin\Debug\Bingo_Final_DB.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\bin\Debug\Bingo_Final_DB.pdb
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\obj\Debug\Bingo Final DB.sqlproj.AssemblyReference.cache
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\obj\Debug\Bingo_Final_DB.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final DB\obj\Debug\Bingo_Final_DB.pdb

@@ -57,4 +57,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="HistorialCartones.sql" />
+    <Build Include="HistorialBolillero.sql" />
+  </ItemGroup>
 </Project>

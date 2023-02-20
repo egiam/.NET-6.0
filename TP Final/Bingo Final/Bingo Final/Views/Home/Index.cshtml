@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "Bingo .NET";
     var numero = 1;
+    var impar = "impar";
+    var par = "par";
 }
 
 <div class="text-center">
@@ -12,7 +14,7 @@
     <br />
     <br />
     @*Generar 4 cartones de bingo de 3*9*@
-    <div class="4cartones">
+    <div class="cuatroCartones">
         <div class="filaCarton">
             <div class="carton">
                 <table class="table table-bordered">
@@ -31,7 +33,15 @@
                             <tr>
                                 @for (int j = 0; j < 9; j++)
                                 {
-                                    <td class="@numero">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                    @*Si es par poner clase "par", si es impar poner clase "impar"*@
+                                    @if (numero % 2 == 0)
+                                    {
+                                        <td class="@par">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="@impar">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                    }
                                     @(numero++)
                                 }
                             </tr>
