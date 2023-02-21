@@ -73,3 +73,5 @@ C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo
 C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final\obj\Debug\net6.0\Bingo Final.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final\obj\Debug\net6.0\Bingo Final.csproj.CopyComplete
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final\bin\Debug\net6.0\Bingo_Final_DB.dll
+C:\Users\ezegi\OneDrive\Documentos\Educacion\.NET-6.0\TP Final\Bingo Final\Bingo Final\bin\Debug\net6.0\Bingo_Final_DB.pdb

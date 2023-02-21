@@ -1,4 +1,5 @@
 ﻿using Bingo_Final.Models;
+using Microsoft.Data.SqlClient;
 
 namespace Bingo_Final.Rules
 {
@@ -8,6 +9,9 @@ namespace Bingo_Final.Rules
 
         public List<Carton> GetCuatroCartonesRandom()
         {
+            var connectionString = @"Server=.\SQLEXPRESS;Database=BingoFinalDB;Trusted_Connection=True;";
+            using var connection = new SqlConnection(connectionString);
+
             var carton1 = new Carton
             {
                 Id = 1,
