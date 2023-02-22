@@ -64,3 +64,18 @@ div.carton {
     }
 }
 
+div.boton, div.muestraDeBolilla {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a#lanzarBolilla {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+

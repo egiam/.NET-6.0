@@ -1,9 +1,14 @@
-﻿@model Bingo
+﻿@using Org.BouncyCastle.Asn1.Ocsp
+@model Bingo
 @{
     ViewData["Title"] = "Bingo .NET";
     var numero = 1;
     var impar = "impar";
     var par = "par";
+
+    //Pasar la bolilla a una variable lista
+    var bolillas = new int[90];
+    var posicion = 0;
 }
 
 <div class="text-center">
@@ -11,73 +16,83 @@
     @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
     <br />
     <br />
-    <br />
+    
+    <div class="muestraDeBolilla">
+        <h1>Bolilla: <span id="bolilla"></span></h1>
+    </div>
+    
+    <br style="margin-top: 20px" />
     <br />
     @*Generar 4 cartones de bingo de 3*9*@
     <div class="cuatroCartones">
-        <div class="filaCarton">
-            <div class="carton">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">B</th>
-                            <th scope="col">I</th>
-                            <th scope="col">N</th>
-                            <th scope="col">G</th>
-                            <th scope="col">O</th>
-                        </tr>
-                    </thead>
-                    <tbody class="cuerpo-carton">
-                        @for (int i = 0; i < 3; i++)
-                        {
+        @for (int h = 0; h < 2; h++)
+        {
+            
+            <div class="filaCarton">
+                <div class="carton">
+                    <table class="table table-bordered">
+                        <thead>
                             <tr>
-                                @for (int j = 0; j < 9; j++)
-                                {
-                                    @*Si es par poner clase "par", si es impar poner clase "impar"*@
-                                    @if (numero % 2 == 0)
-                                    {
-                                        <td class="@par">@Model.Cartones[0].CartonHecho[i, j]</td>
-                                    }
-                                    else
-                                    {
-                                        <td class="@impar">@Model.Cartones[0].CartonHecho[i, j]</td>
-                                    }
-                                    @(numero++)
-                                }
+                                <th scope="col">B</th>
+                                <th scope="col">I</th>
+                                <th scope="col">N</th>
+                                <th scope="col">G</th>
+                                <th scope="col">O</th>
                             </tr>
-                        }
-                        @(numero = 2)
-                    </tbody>
-                </table>
-            </div>
-            <div class="carton">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">B</th>
-                            <th scope="col">I</th>
-                            <th scope="col">N</th>
-                            <th scope="col">G</th>
-                            <th scope="col">O</th>
-                        </tr>
-                    </thead>
-                    <tbody class="cuerpo-carton">
-                        @for (int i = 0; i < 3; i++)
-                        {
+                        </thead>
+                        <tbody class="cuerpo-carton">
+                            @for (int i = 0; i < 3; i++)
+                            {
+                                <tr>
+                                    @for (int j = 0; j < 9; j++)
+                                    {
+                                        @*Si es par poner clase "par", si es impar poner clase "impar"*@
+                                        @if (numero % 2 == 0)
+                                        {
+                                            <td class="@par">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="@impar">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                        }
+                                        @(numero++)
+                                    }
+                                </tr>
+                            }
+                            @(numero = 2)
+                        </tbody>
+                    </table>
+                </div>
+                <div class="carton">
+                    <table class="table table-bordered">
+                        <thead>
                             <tr>
-                                @for (int j = 0; j < 9; j++)
-                                {
-                                    <td class="@numero">@Model.Cartones[1].CartonHecho[i, j]</td>
-                                    @(numero++)
-                                }
+                                <th scope="col">B</th>
+                                <th scope="col">I</th>
+                                <th scope="col">N</th>
+                                <th scope="col">G</th>
+                                <th scope="col">O</th>
                             </tr>
-                        }
-                        @(numero = 1)
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody class="cuerpo-carton">
+                            @for (int i = 0; i < 3; i++)
+                            {
+                                <tr>
+                                    @for (int j = 0; j < 9; j++)
+                                    {
+                                        <td class="@numero">@Model.Cartones[1].CartonHecho[i, j]</td>
+                                        @(numero++)
+                                    }
+                                </tr>
+                            }
+                            @(numero = 1)
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="filaCarton">
+        }
+        
+        @*<div class="filaCarton">
             <div class="carton">
                 <table class="table table-bordered">
                     <thead>
@@ -130,7 +145,13 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div>*@
+    </div>
+    <br />
+    <br />
+
+    <div class="boton">
+        <a id="lanzarBolilla" onclick="mostrarBolilla()">Lanzar Bolilla</a>
     </div>
     
 </div>

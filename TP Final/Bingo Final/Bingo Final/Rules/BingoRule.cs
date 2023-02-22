@@ -5,11 +5,18 @@ namespace Bingo_Final.Rules
 {
     public class BingoRule
     {
+        private readonly IConfiguration _configuration;
+
+        public BingoRule(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        
         //int n = 1;
 
-        public List<Carton> GetCuatroCartonesRandom()
+        public Bingo GetCuatroCartonesRandom()
         {
-            var connectionString = @"Server=.\SQLEXPRESS;Database=BingoFinalDB;Trusted_Connection=True;";
+            var connectionString = _configuration.GetConnectionString("BingoFinalDB");
             using var connection = new SqlConnection(connectionString);
 
             var carton1 = new Carton
@@ -40,7 +47,7 @@ namespace Bingo_Final.Rules
                 Estado = false
             };
 
-            var bingo1 = new Bingo{
+            return new Bingo{
                 Cartones = new List<Carton>{
                     carton1,
                     carton2,
@@ -49,12 +56,12 @@ namespace Bingo_Final.Rules
                 }
             };
 
-            return new List<Carton>{
-                    carton1,
-                    carton2,
-                    carton3,
-                    carton4
-                };
+            //return new List<Carton>{
+            //        carton1,
+            //        carton2,
+            //        carton3,
+            //        carton4
+            //    };
         }
 
         //public Bingo GetCuatroCartonesRandom()
