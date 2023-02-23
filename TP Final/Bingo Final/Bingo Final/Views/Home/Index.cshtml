@@ -18,7 +18,8 @@
     <br />
     
     <div class="muestraDeBolilla">
-        <h1>Bolilla: <span id="bolilla"></span></h1>
+        <h2>Bolilla: <span id="bolilla"></span></h2>
+        <asp:HiddenField ID="hdnfldVariable" runat="server" />
     </div>
     
     <br style="margin-top: 20px" />
@@ -49,11 +50,11 @@
                                         @*Si es par poner clase "par", si es impar poner clase "impar"*@
                                         @if (numero % 2 == 0)
                                         {
-                                            <td class="@par">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                            <td class="@par @numero">@Model.Cartones[0].CartonHecho[i, j]</td>
                                         }
                                         else
                                         {
-                                            <td class="@impar">@Model.Cartones[0].CartonHecho[i, j]</td>
+                                            <td class="@impar @numero">@Model.Cartones[0].CartonHecho[i, j]</td>
                                         }
                                         @(numero++)
                                     }
@@ -80,7 +81,14 @@
                                 <tr>
                                     @for (int j = 0; j < 9; j++)
                                     {
-                                        <td class="@numero">@Model.Cartones[1].CartonHecho[i, j]</td>
+                                        @if (numero % 2 == 0)
+                                        {
+                                            <td class="@par @numero">@Model.Cartones[1].CartonHecho[i, j]</td>
+                                        }
+                                        else
+                                        {
+                                            <td class="@impar @numero">@Model.Cartones[1].CartonHecho[i, j]</td>
+                                        }
                                         @(numero++)
                                     }
                                 </tr>

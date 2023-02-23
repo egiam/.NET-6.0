@@ -14,5 +14,16 @@ function mostrarBolilla() {
     } else {
         bolillas.push(bolilla);
         document.getElementById("bolilla").innerHTML = bolilla;
+        var hdnfldVariable = document.getElementById('hdnfldVariable');
+        hdnfldVariable.value = bolilla;
+    }
+
+    // Si bolilla coincide con un numero del td, el mismo se pone con background color rojo
+    //var td = document.querySelectorAll(bolilla.toString());
+    var td = document.getElementsByClassName(bolilla.toString());
+    if (td != null) {
+        td.forEach(function (element) {
+            element.style.backgroundColor = "red";
+        });
     }
 }
