@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+      "projectUniqueName": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicios\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
       "projectName": "Ejercicio2",
-      "projectPath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+      "projectPath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicios\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
       "packagesPath": "C:\\Users\\ezegi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicio2\\Ejercicio2\\obj\\",
+      "outputPath": "C:\\Users\\ezegi\\OneDrive\\Documentos\\Educacion\\.NET-6.0\\Ejercicios\\Ejercicio2\\Ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezegi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
